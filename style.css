@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.absolute{
+    position: absolute;
+}
+
+body, html{
+    height: 250px;
+    width: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.slide_1{
+    height: 250px;
+    width: 300px;
+    background-color: black;
+    top: 0;
+    left: 0;
+}
+
+.divider_1,.divider_2{
+    height: 75px;
+    width: 7px;
+    background-color: white;
+    left: 93px;
+    top: 90px;
+}
+
+.divider_2{
+    left: 190px;
+    top: 0px;
+}
+
+.my_bid{
+    height: 50px;
+    width: 30px;
+    background-image: url("images/car.png");
+    background-size: 30px 50px;
+    background-repeat: no-repeat;
+    top: 175px;
+    left: 130px;
+    transition: all 1s ease;
+}
+
+.left_move,.right_move{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    outline: 0;
+    background-color: white;
+    top: 210px;
+    left: 105px;
+}
+
+.right_move{
+    left: 150px;
+}
